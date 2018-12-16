@@ -9,6 +9,9 @@
 
         <!--For ripple effect-->
         <item name="android:colorControlHighlight">#F44336</item>
+
+        <!--Enable window content Transitions - Either specify here or specify in the Activity-->
+        <!--<item name="android:windowContentTransitions">true</item>-->
     </style>
 
 </resources>

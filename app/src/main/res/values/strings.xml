@@ -7,4 +7,6 @@
     <string name="ripple_without_border">Ripple Without Border</string>
     <string name="custom_ripple_with_border">Custom Ripple With Border</string>
     <string name="custom_ripple_without_border">Custom Ripple Without Border</string>
+    <string name="exit">EXIT [Back Press]</string>
+    <string name="welcome">Welcome to Smartherd. Stay tuned fo rmore tutorials and courses.</string>
 </resources>
