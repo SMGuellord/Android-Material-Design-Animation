@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".RippleActivity" />
-        <activity android:name=".SharedElement"></activity>
+        <activity android:name=".SharedElement" />
+        <activity android:name=".TransitionActivity"></activity>
     </application>
 
 </manifest>

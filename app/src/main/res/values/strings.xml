@@ -10,4 +10,9 @@
     <string name="exit">EXIT [Back Press]</string>
     <string name="welcome">Welcome to Smartherd.\n Stay tuned for more tutorials and courses.</string>
     <string name="description">Welcome to Smartherd. \n Stay turned for more tutorials and courses.</string>
+    <string name="java_code">Java Code</string>
+    <string name="xml">XML</string>
+    <string name="explode_transition">Explode Transition</string>
+    <string name="slide_transition">Slide Transition</string>
+    <string name="fade_transition">Fade Transition</string>
 </resources>
