@@ -4,8 +4,10 @@ import android.app.ActivityOptions;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.transition.Slide;
 import android.util.Pair;
 import android.view.ActionMode;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -23,6 +25,19 @@ public class MainActivity extends AppCompatActivity {
         imgLogo = findViewById(R.id.imgSmartherdLogo);
         imgProfilePic = findViewById(R.id.imgProfile);
         txvShared = findViewById(R.id.txvSharedElement);
+
+        setupWindowAnimations();
+    }
+
+    //Transition for the main activity
+    private void setupWindowAnimations(){
+        Slide slideTransition = new Slide();
+        slideTransition.setSlideEdge(Gravity.LEFT);
+        slideTransition.setDuration(1000);
+
+        getWindow().setReenterTransition(slideTransition);
+        getWindow().setExitTransition(slideTransition);
+//        getWindow().setAllowReturnTransitionOverlap(false);
     }
 
     public void checkRippleAnimation(View view){

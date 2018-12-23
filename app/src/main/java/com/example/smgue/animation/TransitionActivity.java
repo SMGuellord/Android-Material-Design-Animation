@@ -1,8 +1,6 @@
 package com.example.smgue.animation;
 
-import android.content.Intent;
 import android.support.v4.view.animation.FastOutLinearInInterpolator;
-import android.support.v4.view.animation.FastOutSlowInInterpolator;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.transition.Explode;
@@ -12,8 +10,6 @@ import android.transition.Transition;
 import android.transition.TransitionInflater;
 import android.view.Gravity;
 import android.view.View;
-import android.view.Window;
-import android.view.animation.AnticipateOvershootInterpolator;
 import android.widget.Button;
 
 public class TransitionActivity extends AppCompatActivity {
@@ -27,6 +23,7 @@ public class TransitionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transition);
 
+//        getWindow().setAllowEnterTransitionOverlap(false);
         initPage();
 
         initAnimation();
@@ -98,6 +95,4 @@ public class TransitionActivity extends AppCompatActivity {
             }
         }
     }
-
-
 }
